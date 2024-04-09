@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  background: transparent;
+}
+
+@import "./components/header.scss";
+@import "./components/hero.scss";
+@import "./components/contact.scss";
+@import "./components/company.scss";
+@import "./components/first_work.scss";
+@import "./components/jobs.scss";
+@import "./components/main.scss";
+@import "./components/second__work.scss";
+@import "./components/second_img.scss";
+@import "./components/footer.scss";
