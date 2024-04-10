@@ -54,4 +54,16 @@
       }
     }
   }
+  @media only screen and (max-width: 560px) {
+    .jobs__content {
+      .jobs__cards {
+        .jobs__card {
+          padding: 24px;
+          margin: auto;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
 }
