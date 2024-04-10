@@ -49,4 +49,16 @@
       }
     }
   }
+  @media only screen and (max-width: 768px) {
+    .contact-content {
+      .contact__cards {
+        justify-content: center;
+        .contact__card {
+          border-bottom: 2px solid #ccc;
+          padding-bottom: 15px;
+          border-right: 0;
+        }
+      }
+    }
+  }
 }
